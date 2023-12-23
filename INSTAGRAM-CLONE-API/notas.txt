@@ -1,0 +1,13 @@
+for install new packages we use:
+pip install -r requirements.txt
+
+activate the environment
+source env/bin/activate
+deactive the environment
+deactivate
+
+run the application:
+uvicorn main:app --reload
+
+command to generate a random secret_key hex32 with openssl
+openssl rand -hex 32
